@@ -10,6 +10,7 @@ import {
   StarsCanvas,
   Works,
 } from './components';
+import Buttonwa from './components/Buttonwa';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Buttonwa />
       </div>
     </BrowserRouter>
   );

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
+import Cv from '../assets/cv.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -38,6 +39,15 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <a
+            href={Cv}
+            download="CV-AkhyarRamadhan"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-white text-[18px] font-medium cursor-pointer green-pink-gradient py-1 px-2 rounded-lg"
+          >
+            <button>Download CV</button>
+          </a>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -66,6 +76,15 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <a
+                href={Cv}
+                download="Example-PDF-document"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-white text-[18px] font-medium cursor-pointer"
+              >
+                <button>Download CV</button>
+              </a>
             </ul>
           </div>
         </div>
