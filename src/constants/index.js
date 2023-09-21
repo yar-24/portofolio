@@ -22,6 +22,9 @@ import {
   eundang,
   bintangphoto,
   threejs,
+  mendelof,
+  forum,
+  chat,
 } from '../assets';
 
 export const navLinks = [
@@ -243,6 +246,12 @@ const certificates = [
     image:
       'https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/jobs/dos:lowongan_dicoding_dicoding_indonesia_010322094804.png',
   },
+  {
+    title: 'Junior Web Programming',
+    name: 'Badan Nasional Sertifikasi Profesi',
+    link: 'https://ibb.co/PrYnjXL',
+    image: 'https://cdn2.tstatic.net/tribunnewswiki/foto/bank/images/bnsps.jpg',
+  },
 ];
 
 const projects = [
@@ -308,6 +317,69 @@ const projects = [
     ],
     image: bintangphoto,
     source_code_link: 'https://github.com/yar-24/bintangphoto',
+  },
+  {
+    name: 'Mendelof',
+    description:
+      'Mendelof is an application to classify leaves on coffee plants by applying the CNN (Convolutional Neural Network) method. Mendelof also contains ways to treat coffee plants that are attacked by disease.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'cnn',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mendelof,
+    source_code_link: 'https://mendelof.vercel.app/',
+  },
+  {
+    name: 'Dicoding Forum',
+    description:
+      'Aplikasi ini adalah forum untuk para programmer dan sebagai tugas dari dicoding.',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'responsive',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: forum,
+    source_code_link: 'https://forum-app-yar.vercel.app/',
+  },
+  {
+    name: 'Chat app',
+    description:
+      'Aplikasi ini dibuat untuk memenuhi tugas dicoding yang berisikan komentar dan membuat chat.',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'responsive',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: chat,
+    source_code_link: 'https://open-space-app-orcin.vercel.app/',
   },
 ];
 

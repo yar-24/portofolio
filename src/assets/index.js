@@ -29,6 +29,9 @@ import bintang from './company/bintang.png';
 import nafas from './nafas.png';
 import eundang from './eundang.png';
 import bintangphoto from './bintangphoto.png';
+import mendelof from './mendelof.png';
+import forum from './forum.png';
+import chat from './chat.png';
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   nafas,
   eundang,
   bintangphoto,
+  mendelof,
+  forum,
+  chat,
 };
